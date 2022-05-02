@@ -1,0 +1,119 @@
+/*https://coolors.co/0a81d1-e54f6d-5bc8af-724e91-abdae1 */
+
+#intro {
+    background-color: #724e91;
+    color: white;
+    height: 100vh;
+}
+
+#intro h1 {
+    font-size: 95px;
+    opacity: 0;
+    animation-name: fadein;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#intro h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation-name: fadein;
+    animation-delay: 1s;
+}
+
+#into code {
+    font-size: 20px;
+    margin-top: 20px;
+    animation-name: ease-in ;
+    animation-delay: 4s;
+    color: white;
+}
+
+#intro #downArrow {
+    animation-name: fadein;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    font-size: 75px;
+    opacity: 0;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% -37.5px);
+    color: white;
+}
+
+#downArrow span {
+    font-size: 75px;
+}
+
+#intro #downArrow:hover {
+        color: white;
+}
+
+section {
+    min-height: 30vh;
+}
+
+#About {
+    font-size: 20px;
+    background-color: #0a81d1;
+    color: white;
+    padding: 30px;
+}
+
+#Contact {
+    background-color: #e54f6d;
+    color: white;
+    padding: 30px;
+}
+
+#contact a {
+    color: white;
+}
+#Contact input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+#Contact button {
+    width: 100%;
+}
+
+#Portfolio {
+    background-color: #abdae1;
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+body {
+    background-color: #5bc8af;
+}
+
+.navbar {
+    background-color: #598392 !important;
+}
+
+.project {
+    background-color: #124559;
+    color: white;
+    padding: 20px;
+}
