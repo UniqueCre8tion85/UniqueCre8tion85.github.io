@@ -4,6 +4,7 @@
     background-color: #724e91;
     color: white;
     height: 100vh;
+    padding: 30px;
 }
 
 #intro h1 {
@@ -53,6 +54,7 @@
 
 section {
     min-height: 30vh;
+    box-shadow: -10px 0 25px #5bc8af;
 }
 
 #About {
@@ -83,11 +85,13 @@ section {
 
 #Portfolio {
     background-color: #abdae1;
-    width: 100%;
+    padding: 30px;
 }
 
 .card {
-    width: 100%;
+    color: black
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 @keyframes fadein {
     from {
@@ -102,6 +106,7 @@ footer {
     background-color: black;
     color: white;
     padding: 20px;
+    box-shadow: -10px 0 25px #5bc8af;
 }
 
 body {
@@ -112,7 +117,7 @@ body {
     background-color: #598392 !important;
 }
 
-.project {
+#project {
     background-color: #124559;
     color: white;
     padding: 20px;
