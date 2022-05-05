@@ -54,7 +54,6 @@
 
 section {
     min-height: 30vh;
-    box-shadow: -10px 0 25px #5bc8af;
 }
 
 #About {
@@ -85,6 +84,8 @@ section {
 
 #Portfolio {
     background-color: #abdae1;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card {
@@ -105,12 +106,8 @@ footer {
     background-color: black;
     color: white;
     padding: 20px;
-    box-shadow: -10px 0 25px #5bc8af;
 }
 
-body {
-    background-color: #5bc8af;
-}
 
 .navbar {
     background-color: #598392 !important;
