@@ -85,11 +85,10 @@ section {
 
 #Portfolio {
     background-color: #abdae1;
-    padding: 30px;
 }
 
 .card {
-    color: black
+    color: black;
     margin-top: 15px;
     margin-bottom: 15px;
 }
