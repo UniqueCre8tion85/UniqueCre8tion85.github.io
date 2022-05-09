@@ -1,6 +1,10 @@
 /*https://coolors.co/0a81d1-e54f6d-5bc8af-724e91-abdae1 */
+body {
+    background: #0a81d1;
+    font-family: "Open Sans" , sans-serif;
+}
 
-#intro {
+section#intro {
     background-color: #724e91;
     color: white;
     height: 100vh;
@@ -8,9 +12,10 @@
 }
 
 #intro h1 {
+    font-family: "Montserrat" , sans-serif;
     font-size: 95px;
     opacity: 0;
-    animation-name: fadein;
+    animation: fadein ease-in 1s;
     animation-delay: 2s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -20,11 +25,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
     animation-name: fadein;
+    animation-duration: 2s;
     animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 #into code {
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 20px;
     animation-name: ease-in ;
     animation-delay: 4s;
@@ -37,7 +44,7 @@
     animation-duration: 2s;
     animation-fill-mode: forwards;
     font-size: 75px;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     bottom: 30px;
     left: calc(50% -37.5px);
@@ -65,7 +72,7 @@ section {
 
 #Contact {
     background-color: #e54f6d;
-    color: black;
+    color: white;
     padding: 30px;
 }
 
@@ -84,7 +91,13 @@ section {
 
 #Portfolio {
     background-color: #abdae1;
-    color: black;
+    color: white;
+    padding: 30px;
+}
+
+#Portfolio .btn-primary {
+    background: blue;
+    border: none;
 }
 
 .card {
@@ -115,5 +128,5 @@ footer {
 #project {
     background-color: #124559;
     color: white;
-    padding: 20px;
+    padding: 30px;
 }
